@@ -1,0 +1,58 @@
+body{
+   margin: 0;
+   padding: 0;
+}
+
+.c{
+   margin: 0;
+   padding: 0;
+   height: 210px;
+   text-align: center;
+   font-size: 48px;
+   
+   background: url(img.jpg);
+   background-size: cover;
+   position: center;
+   font-family: sans-serif;
+}
+
+.c1,.c2,.c3{
+   width: 420px;
+   height: 200px;
+   float: left;
+   position: relative;
+   padding: 10px;
+}
+
+.c4{
+    width: 420 px;
+    height: 200px;
+    clear: both;
+    float: left;
+    float: bottom;
+    position: relative; 
+    margin-left: 5px; 
+    margin-top: 4em;
+    margin-bottom: 4em;
+}
+
+.c5{
+   width: 420px;
+   height: 200px;
+   float: left;
+   position: relative;
+   margin-left: 130px;
+   margin-top: 3em;
+   margin-bottom: 8em;
+   padding: 10px;
+}
+
+.c6{
+    width: 420px;
+   height: 200px;
+   float: left;
+   position: relative;
+   margin-top: 3em;
+   margin-bottom: 8em;
+   padding: 10px;
+}

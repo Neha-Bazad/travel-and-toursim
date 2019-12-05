@@ -1,0 +1,61 @@
+<html>
+<head>
+<title>Login Form Design</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+<script>
+    function validation()
+    {
+      var Username=document.getElementById('t1');
+      var password=document.getElementById('t2');
+      if(Username.value==" ")
+      {
+         alert("your Username is required"); 
+         Username.focus();
+         return false;
+      }
+      if(Username.value.length>8)
+      {
+       alert("username length cannot exceed");
+       Username.focus();
+       return false;
+      }  
+      if(password.value==" ")
+      {
+         alert("your password is required");
+         password.focus();
+         return false;
+      }
+      if(password.value.length<3)
+      {
+         alert("password too small");
+         password.focus();
+         return false;
+      }
+      else
+      {
+         alert("you have successfully logged in..click next!");
+         return true;
+       }
+     }
+    
+    
+</script>
+</head>
+<body>
+    <div class="loginbox">
+    <img src="avatar.png" class="avatar"> 
+    <h1>Login here</h1>
+    <form name=f1 onsubmit="return validation();">
+       <p>Username</p>
+       <input type="text"  value=" " id="t1">
+       <p>Password</p>
+       <input type="password"  value=" " id="t2"><br>
+       <input type="submit" value="submit" >
+       <a href="b.html">next</a><br><br>
+       <c>Lost your password?</c><br><br><br>
+       <c>Dont have an account?</c>
+     </form>
+    </div>
+   
+</body>
+</html>
